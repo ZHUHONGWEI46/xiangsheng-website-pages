@@ -1,0 +1,4 @@
+﻿model,validation_scope,mae_mean,rmse_mean,r2_mean,source_file,public_use_note
+Ridge,随机5折 已知体系及相近条件内的辅助排序,0.1504,0.2059,0.4692,source_materials/模型结果/表格/model_comparison_random_5fold.csv,与均值基线并列展示
+均值基线,随机5折 已知体系及相近条件内的基准,0.2450,0.2999,-0.0523,source_materials/模型结果/表格/model_comparison_random_5fold.csv,用于说明模型比较的基线
+Ridge,按活性中心留组 新活性中心外推压力测试,0.2399,0.2838,-3.4737,source_materials/模型结果/表格/model_comparison_group_active_center.csv,与随机5折并列展示不同验证口径

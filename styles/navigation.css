@@ -1,0 +1,280 @@
+/* Skin only: hover/reveal and mobile-menu motion stay in official PillNav. */
+.site-header {
+  position: fixed;
+  z-index: 20;
+  top: max(24px, env(safe-area-inset-top));
+  left: 50%;
+  width: min(1120px, calc(100% - 64px));
+  transform: translateX(-50%);
+}
+
+.site-header-inner {
+  position: relative;
+  min-height: 64px;
+  border: 1px solid rgb(222 207 255 / 14%);
+  border-radius: 36px;
+  background: linear-gradient(
+    115deg,
+    rgb(43 35 57 / 78%),
+    rgb(20 17 29 / 80%) 50%,
+    rgb(39 29 54 / 76%)
+  );
+  box-shadow:
+    0 12px 36px rgb(0 0 0 / 20%),
+    inset 0 1px 0 rgb(255 255 255 / 7%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.site-header .pill-nav-container {
+  position: relative;
+  top: auto;
+  width: 100%;
+  z-index: auto;
+}
+
+.site-header .pill-nav {
+  --nav-h: 48px;
+  --pill-pad-x: 21px;
+  --pill-gap: 4px;
+  width: 100%;
+  min-height: 62px;
+  padding: 7px 150px 7px 12px;
+  background: none;
+}
+
+.site-header .pill-logo {
+  flex: 0 0 142px;
+  width: auto;
+  height: 48px;
+  gap: 10px;
+  justify-content: flex-start;
+  padding: 0;
+  overflow: visible;
+  border-radius: 0;
+  background: none;
+  color: #f2edf9;
+  text-decoration: none;
+}
+
+.site-header .pill-logo-mark {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  overflow: hidden;
+  border-radius: 0;
+  background: transparent;
+}
+
+/* Native cropped SVG: original paths/gradients, transparent and wordmark-free. */
+.site-header .pill-logo-mark img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pill-brand {
+  font-size: 21px;
+  font-weight: 550;
+  line-height: 1;
+  letter-spacing: 0.1em;
+}
+
+.site-header .pill-nav-items {
+  height: 44px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+.site-header .pill-list {
+  padding: 2px;
+}
+
+.site-header .pill {
+  min-height: 40px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 450;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.site-header .pill.is-active {
+  color: #f1e9ff;
+  border-color: rgb(211 185 255 / 14%);
+  background: linear-gradient(
+    180deg,
+    rgb(198 164 255 / 12%),
+    rgb(198 164 255 / 5%)
+  );
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 5%);
+}
+
+.site-header .pill.is-active::after {
+  display: none;
+}
+
+.site-header a:focus-visible,
+.site-header button:focus-visible {
+  outline: 2px solid #cdb3fa;
+  outline-offset: 4px;
+}
+
+.site-workbench-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 42px;
+  padding: 0 19px;
+  border: 1px solid rgb(226 210 255 / 23%);
+  border-radius: 24px;
+  background: linear-gradient(140deg, #776097, #523d71);
+  color: #f9f4ff;
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 14%),
+    0 3px 10px rgb(0 0 0 / 15%);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.site-workbench-link:hover {
+  background: linear-gradient(140deg, #896eaf, #604783);
+}
+
+.site-workbench-link span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.site-header .mobile-menu-button {
+  background: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(222 207 255 / 10%);
+}
+
+.site-header .hamburger-line {
+  background: #e5dcee;
+}
+
+.site-header .mobile-menu-popover {
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  padding: 8px;
+  border: 1px solid rgb(222 207 255 / 14%);
+  border-radius: 24px;
+  background: rgb(27 22 37 / 97%);
+  box-shadow:
+    0 16px 40px rgb(0 0 0 / 24%),
+    inset 0 1px 0 rgb(255 255 255 / 5%);
+}
+
+.site-header .mobile-menu-link {
+  min-height: 44px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.site-header .mobile-menu-link.is-active {
+  background: rgb(198 164 255 / 12%);
+  color: #f1e9ff;
+}
+
+.navigation-preview-note {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  width: max-content;
+  max-width: 100%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid rgb(222 207 255 / 10%);
+  border-radius: 10px;
+  background: rgb(23 19 32 / 90%);
+  color: #c4b8d3;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media (max-width: 900px) and (min-width: 769px) {
+  .site-header {
+    width: calc(100% - 40px);
+  }
+  .site-header .pill-nav {
+    --pill-pad-x: 12px;
+  }
+  .site-header .pill-logo {
+    flex-basis: 118px;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    top: max(16px, env(safe-area-inset-top));
+    width: calc(100% - 32px);
+  }
+  .site-header-inner {
+    min-height: 60px;
+  }
+  .site-header .pill-nav {
+    min-height: 58px;
+    padding: 5px 162px 5px 10px;
+    justify-content: flex-start;
+  }
+  .site-header .pill-logo {
+    flex-basis: auto;
+    gap: 8px;
+  }
+  .pill-brand {
+    font-size: 19px;
+  }
+  .site-header .pill-logo-mark {
+    width: 34px;
+    height: 34px;
+  }
+  .site-header .mobile-menu-button {
+    position: absolute;
+    right: 118px;
+    width: 40px;
+    height: 40px;
+  }
+  .site-workbench-link {
+    top: 8px;
+    right: 8px;
+    min-height: 42px;
+    padding: 0 14px;
+    gap: 8px;
+    font-size: 11px;
+  }
+  .navigation-preview-note {
+    top: calc(100% + 12px);
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .site-header .pill-logo {
+    gap: 6px;
+  }
+  .pill-brand {
+    font-size: 16px;
+  }
+  .site-header .pill-logo-mark {
+    width: 30px;
+    height: 30px;
+  }
+  .site-header .mobile-menu-button {
+    right: 108px;
+  }
+  .site-workbench-link {
+    padding: 0 11px;
+  }
+}

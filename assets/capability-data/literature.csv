@@ -1,0 +1,5 @@
+﻿item,value,unit,scope,source_file,public_use_note
+主论文数量,8,篇,HMF至FDCA文献扩展的主论文范围,source_materials/文献数据/README.md,用于说明证据覆盖范围
+逐实验文献记录,63,条,每条保留页码或图表定位,source_materials/文献数据/validation_summary.json,用于说明可追溯整理
+外部模型候选,14,条,关键条件和定量产率可追溯的候选,source_materials/文献数据/validation_summary.json,作为独立评估候选
+内部核验行,86,条,文献与内部记录的核验视图,source_materials/文献数据/validation_summary.json,用于说明核验流程

@@ -1,0 +1,133 @@
+/* Composition only; existing library materials and motion remain local. */
+html:has(.homepage-story-page) {
+  scroll-behavior: smooth;
+}
+.homepage-hero {
+  position: relative;
+  isolation: isolate;
+}
+.homepage-story-page #home,
+.homepage-story-page #capabilities,
+.homepage-story-page #cases,
+.homepage-story-page #closing {
+  /* Both sections already reserve their own fixed-navigation space. */
+  scroll-margin-top: -116px;
+}
+.homepage-capabilities {
+  --rc-ink: #f0ebfa;
+  --rc-muted: #b4a8c7;
+  --rc-faint: #9685ad;
+  --rc-violet: #bd95fa;
+  --rc-line: rgb(195 162 246 / 17%);
+  position: relative;
+  min-height: 100svh;
+  overflow: clip;
+  background: linear-gradient(180deg, #100c1700, #100c173b 18%, #100c175c);
+}
+.homepage-capabilities:focus {
+  outline: none;
+}
+.homepage-cases {
+  position: relative;
+  min-height: 100svh;
+  overflow: clip;
+  background: linear-gradient(#100c175c, #100c1720);
+}
+.homepage-cases:focus {
+  outline: none;
+}
+.homepage-cases .fdca-case {
+  padding-bottom: 32px;
+}
+.homepage-closing {
+  position: relative;
+  min-height: 100svh;
+  overflow: clip;
+  background: linear-gradient(#100c1720, #100c1710);
+}
+.homepage-closing:focus {
+  outline: none;
+}
+.homepage-closing .research-closing {
+  padding-bottom: 36px;
+}
+.homepage-closing-jump {
+  color: inherit;
+  text-decoration: none;
+}
+.homepage-closing-jump:hover {
+  color: #e8d7ff;
+}
+@media (min-width: 761px) and (max-width: 1050px) {
+  .homepage-closing .closing-footer {
+    flex-wrap: wrap;
+  }
+  .homepage-closing .closing-footer-controls {
+    margin-left: auto;
+  }
+  .homepage-closing .closing-footer nav {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+.homepage-story-page .story-case-link {
+  text-decoration: none;
+  color: inherit;
+}
+.homepage-story-page .cs-code {
+  white-space: nowrap;
+}
+.homepage-capabilities .rc-section,
+.homepage-capability-fallback {
+  width: min(1280px, calc(100% - 80px));
+}
+.homepage-capabilities .rc-workflow {
+  gap: clamp(30px, 3.5vw, 52px);
+}
+.homepage-capabilities .rc-motion-controls {
+  margin-right: 0;
+}
+.homepage-capabilities input:focus-visible {
+  outline: 2px solid #e3c8ff;
+  outline-offset: 3px;
+}
+.homepage-capability-fallback {
+  margin: 0 auto;
+  min-height: 100svh;
+  padding: 140px 0 40px;
+}
+.homepage-capability-fallback h2 {
+  font-size: clamp(28px, 3.4vw, 48px);
+  font-weight: 550;
+}
+.homepage-capability-fallback p {
+  color: #b4a8c7;
+  line-height: 1.8;
+}
+.homepage-capability-fallback a {
+  display: inline-block;
+  color: #d1b3fb;
+  padding: 15px 0;
+  text-decoration: none;
+}
+@media (max-width: 760px) {
+  .homepage-closing .closing-composition {
+    gap: 24px;
+    padding-bottom: 24px;
+  }
+  .homepage-closing .closing-description {
+    margin-top: 18px;
+  }
+  .homepage-closing .closing-conversation {
+    margin-top: 22px;
+  }
+  .homepage-capabilities .rc-section,
+  .homepage-capability-fallback {
+    width: calc(100% - 48px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.homepage-story-page) {
+    scroll-behavior: auto;
+  }
+}

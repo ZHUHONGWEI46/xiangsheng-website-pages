@@ -1,0 +1,204 @@
+/* Homepage content hierarchy only. Shared backgrounds and animation styles stay intact. */
+.hero-business-page .hero-preview-eyebrow > span {
+  color: #b9a8ce;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+.hero-business-page .hero-preview-description {
+  max-width: 27em;
+  margin-top: 10px;
+  color: #c4b7d4;
+  font-weight: 400;
+}
+.hero-support-line {
+  display: block;
+  margin-top: 8px;
+  color: #a99ab9;
+  font-size: 0.9em;
+}
+.hero-problem {
+  margin: 25px 0 0;
+  color: #e4d9f2;
+  font-size: 17px;
+  font-weight: 450;
+  line-height: 1.65;
+  letter-spacing: 0.015em;
+}
+.hero-business-page .cs-shortlist-heading {
+  margin: 15px 0 18px;
+  color: #e4d9f2;
+}
+.hero-business-page .cs-result-value {
+  font-size: 52px;
+}
+.hero-business-page .cs-result-conditions {
+  margin-top: 13px;
+}
+.hero-research-proof {
+  max-width: 380px;
+  margin-top: 25px;
+  padding-top: 13px;
+  border-top: 1px solid #b39acc2e;
+}
+.hero-proof-caption {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+  margin: 0 0 12px;
+  color: #b5a2cf;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+}
+.hero-proof-caption span {
+  color: #8f829f;
+  font-size: 9px;
+  letter-spacing: 0.025em;
+}
+.hero-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+}
+.hero-proof-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hero-proof-grid dt {
+  color: #a69ab7;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.hero-proof-grid dd {
+  order: -1;
+  margin: 0;
+  color: #e5d9f7;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+}
+.hero-proof-grid strong {
+  font-size: 24px;
+  font-weight: 450;
+  letter-spacing: -0.045em;
+}
+.hero-proof-grid small {
+  margin-left: 6px;
+  font-size: 10px;
+  color: #9d8bb8;
+}
+.hero-action-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 25px;
+  margin-top: 23px;
+}
+.hero-action-row .hero-preview-action {
+  margin-top: 0;
+  text-decoration: none;
+}
+.hero-action-row .hero-preview-replay {
+  gap: 13px;
+  min-height: 44px;
+  color: #a497b8;
+  font-size: 11px;
+  border-bottom-color: transparent;
+}
+.hero-preview-replay > span {
+  font-size: 16px;
+  color: #aa95c5;
+}
+@media (min-width: 941px) and (max-height: 800px) {
+  .hero-business-page .hero-preview-main {
+    padding-top: 120px;
+    padding-bottom: 72px;
+  }
+  .hero-business-page .hero-preview-copy {
+    padding-bottom: 0;
+  }
+  .hero-business-page .hero-preview-copy h1 {
+    font-size: clamp(42px, 4.15vw, 60px);
+    line-height: 1.3;
+  }
+  .hero-business-page .hero-preview-eyebrow {
+    margin-bottom: 20px;
+  }
+  .hero-business-page .hero-preview-description {
+    margin-top: 8px;
+  }
+  .hero-problem {
+    margin-top: 18px;
+  }
+  .hero-research-proof {
+    margin-top: 16px;
+    padding-top: 11px;
+  }
+  .hero-action-row {
+    margin-top: 18px;
+  }
+}
+@media (min-width: 641px) and (max-width: 940px) {
+  .hero-problem {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .hero-business-page .hero-preview-copy h1 {
+    font-size: clamp(29px, 4.3vw, 40px);
+  }
+  .hero-business-page .hero-preview-eyebrow > span {
+    font-size: 9px;
+    padding-left: 5px;
+    letter-spacing: 0;
+  }
+  .hero-research-proof {
+    margin-top: 18px;
+    padding-top: 10px;
+  }
+  .hero-proof-caption {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 9px;
+  }
+  .hero-proof-caption span {
+    display: block;
+    margin-top: 4px;
+    font-size: 8px;
+  }
+  .hero-proof-grid {
+    gap: 8px;
+  }
+  .hero-proof-grid strong {
+    font-size: 24px;
+  }
+  .hero-proof-grid dt {
+    font-size: 9px;
+  }
+  .hero-action-row {
+    gap: 6px 16px;
+    margin-top: 17px;
+  }
+  .hero-action-row .hero-preview-action {
+    gap: 20px;
+    min-height: 40px;
+  }
+  .hero-action-row .hero-preview-replay {
+    gap: 8px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .hero-business-page .hero-preview-eyebrow > span {
+    font-size: 10px;
+  }
+  .hero-research-proof {
+    margin-top: 22px;
+  }
+  .hero-proof-grid strong {
+    font-size: 27px;
+  }
+  .hero-action-row {
+    margin-top: 21px;
+    gap: 10px 24px;
+  }
+}
