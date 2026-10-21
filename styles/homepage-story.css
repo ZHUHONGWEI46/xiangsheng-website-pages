@@ -8,6 +8,7 @@ html:has(.homepage-story-page) {
 }
 .homepage-story-page #home,
 .homepage-story-page #capabilities,
+.homepage-story-page #methods,
 .homepage-story-page #cases,
 .homepage-story-page #closing {
   /* Both sections already reserve their own fixed-navigation space. */
@@ -26,6 +27,31 @@ html:has(.homepage-story-page) {
 }
 .homepage-capabilities:focus {
   outline: none;
+}
+.homepage-methods {
+  position: relative;
+  min-height: 100svh;
+  overflow: clip;
+  background: linear-gradient(#100c175c, #100c1730);
+}
+.homepage-methods:focus { outline: none; }
+.homepage-methods .research-methods {
+  width: min(1280px, calc(100% - 80px));
+  min-height: 100svh;
+  padding: 132px 0 30px;
+  gap: 28px 40px;
+}
+@media (min-width: 1100px) and (max-height: 760px) {
+  .homepage-methods .research-methods { padding: 108px 0 16px; gap: 14px 36px; }
+  .homepage-methods .rm-canvas, .homepage-methods .rm-paper-deck { min-height: 410px; height: 410px; }
+  .homepage-methods .rm-paper { height: 315px; top: calc(58px - var(--paper-index) * 15px); }
+  .homepage-methods .rm-table { padding-top: 20px; }
+  .homepage-methods .rm-table-row { padding: 8px 0; }
+  .homepage-methods .rm-data-note { padding: 13px 3px; }
+  .homepage-methods .rm-source-detail { padding: 13px 16px; }
+}
+@media (max-width: 800px) {
+  .homepage-methods .research-methods { width: calc(100% - 40px); padding: 104px 0 32px; gap: 22px; }
 }
 .homepage-cases {
   position: relative;
