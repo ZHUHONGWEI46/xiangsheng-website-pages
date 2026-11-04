@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <script>try{document.documentElement.dataset.theme=localStorage.getItem('xs-workspace-theme')==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="theme-color" content="#100d18" />
+    <meta name="description" content="象生研发工作台，HMF 氧化制 FDCA 科研平台展示版。" />
+    <title>象生研发工作台｜HMF → FDCA</title>
+    <link rel="stylesheet" href="./styles.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/studio-instrument.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/studio-uiverse.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/chart-mode-switch.css" />
+    <link rel="stylesheet" href="./styles/research-suite.css?v=20261104-final" />
+    <script type="module" src="./app.js?v=20261104-final"></script>
+    <link rel="stylesheet" href="./styles/data-row-states.css" />
+    <link rel="stylesheet" href="./styles/record-source.css" />
+    <link rel="stylesheet" href="./styles/workspace-fields.css" />
+    <link rel="stylesheet" href="./styles/navigation-icons.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/periodic-table.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/workspace-interactions.css?v=20261104-final" />
+    <link rel="stylesheet" href="./styles/workspace-chrome.css?v=20261104-final" />
+  <link rel="stylesheet" href="./styles/workspace-ambient.css" />
+  <link rel="stylesheet" href="./styles/workspace-expanded-header.css" />
+<link rel="stylesheet" href="./styles/overview-dashboard.css" />
+<link rel="stylesheet" href="./styles/workspace-graphite.css?v=20261104-final" />
+<link rel="stylesheet" href="./styles/workspace-rebuild.css?v=20261104-final" />
+<script src="./vendor/crystal/3Dmol-min.js"></script>
+<link rel="stylesheet" href="./styles/workspace-light.css?v=20261104-final" />
+</head>
+  <body>
+    <a class="skip" href="#view">跳转到工作区</a>
+    <div class="app-shell">
+      <div class="main-shell">
+        <header class="topbar">
+          <a class="brand top-brand" href="#/overview" aria-label="象生 Research OS，前往项目总览"
+            ><img class="studio-brand-logo" src="./vendor/studio/ecogiant-mark.svg" alt=""
+            ><span><strong>象生</strong><small>RESEARCH OS</small></span></a
+          >
+          <nav class="top-nav" id="main-nav" aria-label="平台主导航">
+            <a href="#/overview" data-route="overview"
+              ><span class="ui-icon icon-overview" aria-hidden="true"></span><span>总览</span></a
+            >
+            <a href="#/data" data-route="data"
+              ><span class="ui-icon icon-data" aria-hidden="true"></span><span>数据</span></a
+            >
+            <a href="#/workbench" data-route="workbench"
+              ><svg class="workbench-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M9 9v11"/></svg><span>实验工作台</span></a
+            >
+            <a href="#/models" data-route="models"
+              ><span class="ui-icon icon-model" aria-hidden="true"></span><span>模型</span></a
+            >
+            <a href="#/literature" data-route="literature"
+              ><span class="ui-icon icon-literature" aria-hidden="true"></span><span>文献</span></a
+            >
+            <a href="#/plans" data-route="plans"
+              ><span class="ui-icon icon-plan" aria-hidden="true"></span><span>待实验</span></a
+            >
+            <a href="#/methods" data-route="methods"
+              ><span class="ui-icon icon-method" aria-hidden="true"></span><span>能力</span></a
+            >
+          </nav>
+          <div class="top-actions">
+            <a class="workspace-home-link" id="workspace-home" href="../#home" hidden>返回主页</a>
+            <span class="dataset-status" id="dataset-status">示例数据</span>
+            <button class="import-open" id="import-open" disabled>导入数据</button>
+            <button class="dataset-restore" id="dataset-restore" hidden>恢复示例</button>
+            <button
+              class="project-select"
+              data-action="project-info"
+              aria-label="当前项目 HMF 至 FDCA"
+            >
+              HMF → FDCA <span class="ui-icon icon-chevron" aria-hidden="true"></span></button
+            ><span class="demo-badge"><i></i> DEMO</span
+            ><span class="avatar" aria-label="演示访客">XS</span>
+          </div>
+        </header>
+        <main id="view" tabindex="-1">
+          <div class="loading-state">
+            <span class="loading-ring"></span><strong>正在载入研究数据</strong
+            ><small>本地静态数据 · HMF → FDCA</small>
+          </div>
+        </main>
+        <div class="contextbar" id="contextbar"></div>
+      </div>
+    </div>
+    <div id="workspace-footer-ambient" aria-hidden="true"></div>
+    <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+    <aside class="detail-drawer" id="detail-drawer" aria-label="详情面板" hidden></aside>
+    <div class="toast" id="toast" role="status" hidden></div>
+    <dialog class="import-dialog" id="import-dialog" aria-labelledby="import-title"></dialog>
+    <dialog
+      class="research-dialog"
+      id="research-dialog"
+      aria-labelledby="research-dialog-title"
+    ></dialog>
+  </body>
+</html>

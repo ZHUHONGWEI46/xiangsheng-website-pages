@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="models-title" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<title id="models-title">模型验证</title>
+<defs>
+  <linearGradient id="models-edge" x1="13" y1="8" x2="52" y2="57" gradientUnits="userSpaceOnUse"><stop stop-color="#e2d5ff"/><stop offset=".47" stop-color="#b9a0dd"/><stop offset="1" stop-color="#a4c5ee"/></linearGradient>
+  <linearGradient id="models-glass" x1="12" y1="10" x2="54" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#75648c" stop-opacity=".65"/><stop offset=".48" stop-color="#3b304f" stop-opacity=".85"/><stop offset="1" stop-color="#252236" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="models-top" x1="18" y1="8" x2="44" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#b3a0d6"/><stop offset="1" stop-color="#453754"/></linearGradient>
+  <linearGradient id="models-core" x1="22" y1="18" x2="48" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#a18bcc"/><stop offset=".55" stop-color="#6e4e9c"/><stop offset="1" stop-color="#464573"/></linearGradient>
+  <filter id="models-shadow" x="-25%" y="-20%" width="150%" height="155%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="1.8" stdDeviation="1" flood-color="#06030e" flood-opacity=".65"/></filter>
+</defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m17 18 9 9m12-1 9-9m-9 19 11 10m-24-9-9 12M17 18l30-1M16 49l33-3" stroke="#302840" stroke-width="5"/>
+  <path d="m17 18 9 9m12-1 9-9m-9 19 11 10m-24-9-9 12" stroke="url(#models-edge)" stroke-width="2.4"/>
+  <path d="M17 18c8-8 22-10 30-1M16 49c11 8 25 5 33-3" stroke="#9c87bd" stroke-opacity=".36" stroke-width="1.5"/>
+</g>
+<g filter="url(#models-shadow)">
+  <circle cx="16" cy="17" r="5" fill="url(#models-top)" stroke="url(#models-edge)" stroke-width="2"/>
+  <circle cx="48" cy="16" r="5" fill="url(#models-top)" stroke="url(#models-edge)" stroke-width="2"/>
+  <circle cx="15" cy="50" r="5" fill="url(#models-glass)" stroke="url(#models-edge)" stroke-width="2"/>
+  <circle cx="50" cy="47" r="5" fill="url(#models-top)" stroke="url(#models-edge)" stroke-width="2"/>
+  <path d="m32 20 11 11-11 12-11-12Z" fill="url(#models-core)" stroke="url(#models-edge)" stroke-width="2"/>
+  <path d="m25 30 7-7 7 7M32 24v14" fill="none" stroke="#f0e4ff" stroke-opacity=".4" stroke-width="1.4"/>
+  <path d="m23 33 9 9 9-9" fill="none" stroke="#a5c5ff" stroke-opacity=".4" stroke-width="1.2"/>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="workbench-title" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<title id="workbench-title">实验工作台</title>
+<defs>
+  <linearGradient id="workbench-edge" x1="13" y1="8" x2="52" y2="57" gradientUnits="userSpaceOnUse"><stop stop-color="#e2d5ff"/><stop offset=".47" stop-color="#b9a0dd"/><stop offset="1" stop-color="#a4c5ee"/></linearGradient>
+  <linearGradient id="workbench-glass" x1="12" y1="10" x2="54" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#75648c" stop-opacity=".65"/><stop offset=".48" stop-color="#3b304f" stop-opacity=".85"/><stop offset="1" stop-color="#252236" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="workbench-top" x1="18" y1="8" x2="44" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#b3a0d6"/><stop offset="1" stop-color="#453754"/></linearGradient>
+  <linearGradient id="workbench-core" x1="22" y1="18" x2="48" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#a18bcc"/><stop offset=".55" stop-color="#6e4e9c"/><stop offset="1" stop-color="#464573"/></linearGradient>
+  <filter id="workbench-shadow" x="-25%" y="-20%" width="150%" height="155%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="1.8" stdDeviation="1" flood-color="#06030e" flood-opacity=".65"/></filter>
+</defs>
+<g filter="url(#workbench-shadow)">
+  <path d="M9 44v4a6 6 0 0 0 6 6h34a6 6 0 0 0 6-6v-4" fill="#292139" stroke="#8a74b4" stroke-opacity=".58" stroke-width="1.5"/>
+  <rect x="9" y="11" width="46" height="40" rx="6" fill="url(#workbench-glass)" stroke="url(#workbench-edge)" stroke-width="2.2"/>
+  <path d="M10 23h44M24 24v26" stroke="url(#workbench-edge)" stroke-width="1.8"/>
+  <path d="M15 29h4m-4 7h4m-4 7h4" stroke="#b9b0d2" stroke-opacity=".7" stroke-width="1.8"/>
+  <path d="m30 41 6-7 6 4 7-9" fill="none" stroke="#b8ccff" stroke-width="2.1"/>
+  <circle cx="36" cy="34" r="2.2" fill="#e1ceff"/><circle cx="42" cy="38" r="2.2" fill="#c1a1f4"/>
+  <path d="M16 16h10" stroke="#eee3ff" stroke-width="1.6" stroke-opacity=".5"/>
+  <circle cx="46" cy="17" r="1.1" fill="#b9a0db"/><circle cx="50" cy="17" r="1.1" fill="#b8d1ff"/>
+  <path d="M11 18v-1a4 4 0 0 1 4-4h22" fill="none" stroke="#f3eaff" stroke-opacity=".25" stroke-width="1.2"/>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="overview-title" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<title id="overview-title">总览</title>
+<defs>
+  <linearGradient id="overview-edge" x1="13" y1="8" x2="52" y2="57" gradientUnits="userSpaceOnUse"><stop stop-color="#e2d5ff"/><stop offset=".47" stop-color="#b9a0dd"/><stop offset="1" stop-color="#a4c5ee"/></linearGradient>
+  <linearGradient id="overview-glass" x1="12" y1="10" x2="54" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#75648c" stop-opacity=".65"/><stop offset=".48" stop-color="#3b304f" stop-opacity=".85"/><stop offset="1" stop-color="#252236" stop-opacity=".9"/></linearGradient>
+  <linearGradient id="overview-top" x1="18" y1="8" x2="44" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#b3a0d6"/><stop offset="1" stop-color="#453754"/></linearGradient>
+  <linearGradient id="overview-core" x1="22" y1="18" x2="48" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#a18bcc"/><stop offset=".55" stop-color="#6e4e9c"/><stop offset="1" stop-color="#464573"/></linearGradient>
+  <filter id="overview-shadow" x="-25%" y="-20%" width="150%" height="155%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="1.8" stdDeviation="1" flood-color="#06030e" flood-opacity=".65"/></filter>
+</defs>
+<g filter="url(#overview-shadow)">
+  <path d="M11 21v5a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-5M35 21v5a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-5M11 45v5a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-5M35 45v5a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4v-5" fill="#29233e" stroke="#8d79b2" stroke-opacity=".55" stroke-width="1.4"/>
+  <rect x="11" y="9" width="18" height="18" rx="4" fill="url(#overview-glass)" stroke="url(#overview-edge)" stroke-width="2"/>
+  <rect x="35" y="9" width="18" height="18" rx="4" fill="url(#overview-glass)" stroke="url(#overview-edge)" stroke-width="2"/>
+  <rect x="11" y="33" width="18" height="18" rx="4" fill="url(#overview-glass)" stroke="url(#overview-edge)" stroke-width="2"/>
+  <rect x="35" y="33" width="18" height="18" rx="4" fill="url(#overview-core)" stroke="url(#overview-edge)" stroke-width="2"/>
+  <path d="M15 14h6M39 14h6M15 38h6" stroke="#eee3ff" stroke-opacity=".44" stroke-width="1.5"/>
+  <path d="M40 45v-3m4 3v-6m4 6v-9" stroke="#eee6ff" stroke-width="1.8"/>
+</g>
+</svg>

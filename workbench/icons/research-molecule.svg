@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="bond" x1="8" y1="36" x2="40" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9874CD"/><stop offset=".5" stop-color="#CBB0F1"/><stop offset="1" stop-color="#9DC8F5"/>
+    </linearGradient>
+    <radialGradient id="node" cx=".3" cy=".2" r=".85">
+      <stop stop-color="#F1E9FF"/><stop offset=".45" stop-color="#CEB3F1"/><stop offset="1" stop-color="#765494"/>
+    </radialGradient>
+    <radialGradient id="active" cx=".3" cy=".2" r=".85">
+      <stop stop-color="#F2FAFF"/><stop offset=".5" stop-color="#ACD3F6"/><stop offset="1" stop-color="#597FBA"/>
+    </radialGradient>
+  </defs>
+  <!-- Abstract research motif; not a specific chemical structure. -->
+  <path d="M10 18 22 11 34 18V32L22 39 10 32Z M34 18 41 10" stroke="#0C0815" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M10 18 22 11 34 18V32L22 39 10 32Z M34 18 41 10" stroke="url(#bond)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 20 22 15M30 21V29M22 35 14 30" stroke="url(#bond)" stroke-opacity=".4" stroke-width="1.2" stroke-linecap="round"/>
+  <g fill="url(#node)" stroke="#DEC8FA" stroke-width=".55">
+    <circle cx="10" cy="18" r="3.1"/><circle cx="22" cy="11" r="2.6"/>
+    <circle cx="34" cy="32" r="2.6"/><circle cx="22" cy="39" r="2.6"/><circle cx="10" cy="32" r="2.6"/>
+  </g>
+  <circle cx="34" cy="18" r="4" fill="url(#active)" stroke="#D6EBFF" stroke-width=".65"/>
+  <circle cx="41" cy="10" r="2.3" fill="url(#active)" stroke="#D6EBFF" stroke-width=".5"/>
+</svg>
