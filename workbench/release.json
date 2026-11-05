@@ -1,6 +1,6 @@
 {
   "generatedBy": "xiangsheng-workbench-public",
-  "builtAt": "2026-11-04T12:22:40.243Z",
+  "builtAt": "2026-11-05T01:55:36.748Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,7 +8,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "42afff699e984e0e40d8bca26e6b394abb8454c9b14e33b323e0585602a24ee4"
+      "sha256": "9ba6aadb6c3a488cd0131e3c864e8bd5ce8139e0cf50bcb77fe5ee9c7bce0e8e"
     },
     {
       "path": "dataset.json",
@@ -272,11 +272,11 @@
     },
     {
       "path": "styles/workspace-light.css",
-      "sha256": "a265be86e14395890bed8619016b5c110b6c5a9f43792736f6da5a205022239b"
+      "sha256": "1e4af728f7967bd7a8e4b494c0c0f0442b68e90d7a262f4003e4492af5f511a5"
     },
     {
       "path": "styles/workspace-rebuild.css",
-      "sha256": "fc02b5c29cb067befae515544dd253f3436a9261e98b7e38b33832b6f0f191bc"
+      "sha256": "d19971e929913f396433b968dbe1bcb0493b70013c1bae113ced7c0f21a75e30"
     },
     {
       "path": "styles.css",
