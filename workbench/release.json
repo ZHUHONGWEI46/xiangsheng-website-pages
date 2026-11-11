@@ -1,6 +1,6 @@
 {
   "generatedBy": "xiangsheng-workbench-public",
-  "builtAt": "2026-11-05T01:55:36.748Z",
+  "builtAt": "2026-11-11T11:38:30.974Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,7 +8,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "9ba6aadb6c3a488cd0131e3c864e8bd5ce8139e0cf50bcb77fe5ee9c7bce0e8e"
+      "sha256": "d313774a50c2362a81b49144ebed98356f75c48304d801877066efc15298476d"
     },
     {
       "path": "dataset.json",
@@ -156,7 +156,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "eb40026dc699c42904acab883ddcb84db062fb4f8129193540b3c2a640af2f2c"
+      "sha256": "4d857e62c31aa666b79b08ca3173cd08c067c275338ec648674890a8b229a375"
+    },
+    {
+      "path": "processed-package.json",
+      "sha256": "c5d4d6e2dfc49933bdd94b5b159cc5e44711c6dfafbae2d771bd7d63f54c25b2"
     },
     {
       "path": "styles/base.css",
@@ -276,7 +280,7 @@
     },
     {
       "path": "styles/workspace-rebuild.css",
-      "sha256": "d19971e929913f396433b968dbe1bcb0493b70013c1bae113ced7c0f21a75e30"
+      "sha256": "ea7e72da4a8041164554ab71190e718f6aede533c8465d95f38c2e5e82b6796c"
     },
     {
       "path": "styles.css",
@@ -309,6 +313,30 @@
     {
       "path": "vendor/crystal/mn-nc.cif",
       "sha256": "2a4aef0dee2f894aedf94de9fa9afe65111152ef11936887e4f8d4b5192a6e04"
+    },
+    {
+      "path": "vendor/data-figures/LICENSE-echarts.txt",
+      "sha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a"
+    },
+    {
+      "path": "vendor/data-figures/LICENSE-react-dom.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "vendor/data-figures/LICENSE-react.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "vendor/data-figures/LICENSE-three.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "vendor/data-figures/LICENSE-zrender.txt",
+      "sha256": "a681e9d183c72b4af4856935893805eb48c08f0f5a3f260203db7444c20fb98a"
+    },
+    {
+      "path": "vendor/data-figures/index.css",
+      "sha256": "47da5155db71bee238c60ae0dade2b5360349f801ba98d8ee5ed1c296c0546f6"
     },
     {
       "path": "vendor/heroui/LICENSE",
