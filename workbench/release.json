@@ -1,6 +1,6 @@
 {
   "generatedBy": "xiangsheng-workbench-public",
-  "builtAt": "2026-11-11T11:38:30.974Z",
+  "builtAt": "2026-11-12T09:42:55.145Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,7 +8,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "d313774a50c2362a81b49144ebed98356f75c48304d801877066efc15298476d"
+      "sha256": "9fe81540118e9d03f451e6850fb8fc2e78b879adf8864bebb4b4c2a7cae34d49"
     },
     {
       "path": "dataset.json",
@@ -156,7 +156,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "4d857e62c31aa666b79b08ca3173cd08c067c275338ec648674890a8b229a375"
+      "sha256": "82c912a006ac9ed8989de0e0a22bd6df189582229565f163427013e2bc918149"
     },
     {
       "path": "processed-package.json",
@@ -217,6 +217,10 @@
     {
       "path": "styles/periodic-table.css",
       "sha256": "8709a54deebeb572fbbf808abba5a2be78cad6f2d709b687debe341ebdf9f8b8"
+    },
+    {
+      "path": "styles/reaction-energy.css",
+      "sha256": "73d16833da343496a0f48d90a5ec002b17cc3f9b90f6373e04dfa1ce75f776d4"
     },
     {
       "path": "styles/record-source.css",
