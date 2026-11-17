@@ -1,6 +1,6 @@
 {
   "generatedBy": "xiangsheng-workbench-public",
-  "builtAt": "2026-11-12T09:42:55.145Z",
+  "builtAt": "2026-11-17T10:25:37.378Z",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,7 +8,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "9fe81540118e9d03f451e6850fb8fc2e78b879adf8864bebb4b4c2a7cae34d49"
+      "sha256": "8fe9a70de8e70f53e3f847e3ec56dbbeab3cd999c772f36236932da2f574f319"
     },
     {
       "path": "dataset.json",
@@ -123,6 +123,38 @@
       "sha256": "eedad40587cfc6420b3c4dd734fa591b552b2c1eb7348e415471c694e6d7dabe"
     },
     {
+      "path": "icons/metrics/conditions.png",
+      "sha256": "de6c34411ec9d8d0e37864ca4200592b451695bf250bf4fa2c45a69a92ea9100"
+    },
+    {
+      "path": "icons/metrics/experiments.png",
+      "sha256": "04e24f3eac28f0fac941f0edebb07373f511360c16695116686e780491005dee"
+    },
+    {
+      "path": "icons/metrics/flask-bonds.png",
+      "sha256": "aedbf3673dc111bf65a0c09451910b31802e1743426e3da3cd33986e1979eadb"
+    },
+    {
+      "path": "icons/metrics/papers.png",
+      "sha256": "d505b6563b1cd463f2bb3287dcba00437e6bc666da54038168351ea08ce73654"
+    },
+    {
+      "path": "icons/metrics/records.png",
+      "sha256": "c3b027e3aec5520bb32d69e3bab7648580209fcb7e05e934ca3cd4709315abd9"
+    },
+    {
+      "path": "icons/metrics/sites.png",
+      "sha256": "b375a20ca6a95f6cebb048aaf4ed2f5397de4c744663fa6f26e00e9f351361b8"
+    },
+    {
+      "path": "icons/metrics/temperature.png",
+      "sha256": "895837547554f6d3f9db8a8f7fcb048a4c11fd7179172874541884a9cba56e00"
+    },
+    {
+      "path": "icons/metrics/time.png",
+      "sha256": "471d5ef7bdb460625d8dbdff45c7d7541cf3d90dfc0554cbc73ba30ba9de8252"
+    },
+    {
       "path": "icons/navigation/data.svg",
       "sha256": "0221e641027427232e76ca8785ace125b9481b59aa96aea50e1298c02045609a"
     },
@@ -156,7 +188,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "82c912a006ac9ed8989de0e0a22bd6df189582229565f163427013e2bc918149"
+      "sha256": "bc91cb8841b6632f179604b9d8f982348a6d09430708aed210446f92d5db7d4d"
     },
     {
       "path": "processed-package.json",
@@ -208,7 +240,7 @@
     },
     {
       "path": "styles/overview-dashboard.css",
-      "sha256": "0ad306e94949ef4b917054df08ad88c2429ee6e29ac536374d10196d380c2e28"
+      "sha256": "0590b45f5450182d97ab3f0616eeb2cc7099d3df9edab0c5a5e3342ab3639961"
     },
     {
       "path": "styles/overview.css",
@@ -220,7 +252,7 @@
     },
     {
       "path": "styles/reaction-energy.css",
-      "sha256": "73d16833da343496a0f48d90a5ec002b17cc3f9b90f6373e04dfa1ce75f776d4"
+      "sha256": "27ea809020f1db2e08fac5d9176efad2ee227e5ab8e3886eb8c3db46546bf626"
     },
     {
       "path": "styles/record-source.css",
@@ -280,11 +312,11 @@
     },
     {
       "path": "styles/workspace-light.css",
-      "sha256": "1e4af728f7967bd7a8e4b494c0c0f0442b68e90d7a262f4003e4492af5f511a5"
+      "sha256": "480b64df5ae7e8b5724fdd36e5e03d3dffac40a765af6534622af00da13b17d2"
     },
     {
       "path": "styles/workspace-rebuild.css",
-      "sha256": "ea7e72da4a8041164554ab71190e718f6aede533c8465d95f38c2e5e82b6796c"
+      "sha256": "4d15a544711786b6f78e2acd09c9c0f629ca2aab117d260c949ba33114a104d0"
     },
     {
       "path": "styles.css",
@@ -340,7 +372,7 @@
     },
     {
       "path": "vendor/data-figures/index.css",
-      "sha256": "47da5155db71bee238c60ae0dade2b5360349f801ba98d8ee5ed1c296c0546f6"
+      "sha256": "2f506693aebde33b1b0172413530a171ec82162b0e4749f2e4bb8083f9038b29"
     },
     {
       "path": "vendor/heroui/LICENSE",
